@@ -1,0 +1,39 @@
+[00:00:02.448] Server  LOG     ✓ Ready in 2.2s
+[00:01:38.831] Server  LOG     ✓ Compiled in 143ms
+[00:01:38.836] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./next-monorepo/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:38.847] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./next-monorepo/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:03.634] Server  LOG     ✓ Compiled in 85ms
+[00:02:03.820] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./next-monorepo/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:02:03.827] Browser ERROR   unhandledRejection: undefined
+[00:02:32.100] Server  LOG     ✓ Compiled in 119ms
+[00:02:40.094] Server  LOG     ✓ Compiled in 62ms
+[00:03:51.946] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./next-monorepo/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:51.946] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./next-monorepo/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3003/. Falling back to browser navigation. {}
+[00:03:51.946] Browser ERROR   unhandledRejection: undefined
+[00:03:51.946] Browser ERROR   unhandledRejection: undefined
+[00:04:43.229] Server  LOG     ✓ Compiled in 67ms
+[00:25:12.676] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
