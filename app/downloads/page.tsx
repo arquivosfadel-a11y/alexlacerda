@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Download, FileText, ImageIcon, Presentation, FileBarChart, Newspaper, Palette } from "lucide-react"
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
   title: "Downloads | Alex Lacerda",
