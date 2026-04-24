@@ -37,3 +37,537 @@
 [00:03:51.946] Browser ERROR   unhandledRejection: undefined
 [00:04:43.229] Server  LOG     ✓ Compiled in 67ms
 [00:25:12.676] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:40:40.600] Server  LOG     ✓ Compiled in 451ms
+[00:45:27.408] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/contato/contact-form.tsx:5:1
+Module not found: Can't resolve '@/components/button'
+  3 | import { useState } from "react"
+  4 | import { Send, CheckCircle, MessageSquare } from "lucide-react"
+> 5 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { cn } from "@/lib/utils"
+  7 |
+  8 | const WA_NUMBER = "5515999990000"
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+Import trace:
+  Server Component:
+    ./next-monorepo/apps/web/app/contato/contact-form.tsx
+    ./next-monorepo/apps/web/app/contato/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.410] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/contato/contact-form.tsx:5:1
+Module not found: Can't resolve '@/components/button'
+  3 | import { useState } from "react"
+  4 | import { Send, CheckCircle, MessageSquare } from "lucide-react"
+> 5 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { cn } from "@/lib/utils"
+  7 |
+  8 | const WA_NUMBER = "5515999990000"
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+Import trace:
+  Server Component:
+    ./next-monorepo/apps/web/app/contato/contact-form.tsx
+    ./next-monorepo/apps/web/app/contato/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.411] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/contato/contact-form.tsx:5:1
+Module not found: Can't resolve '@/components/button'
+  3 | import { useState } from "react"
+  4 | import { Send, CheckCircle, MessageSquare } from "lucide-react"
+> 5 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { cn } from "@/lib/utils"
+  7 |
+  8 | const WA_NUMBER = "5515999990000"
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+Import trace:
+  Server Component:
+    ./next-monorepo/apps/web/app/contato/contact-form.tsx
+    ./next-monorepo/apps/web/app/contato/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.412] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/contato/contact-form.tsx:5:1
+Module not found: Can't resolve '@/components/button'
+  3 | import { useState } from "react"
+  4 | import { Send, CheckCircle, MessageSquare } from "lucide-react"
+> 5 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { cn } from "@/lib/utils"
+  7 |
+  8 | const WA_NUMBER = "5515999990000"
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+Import trace:
+  Server Component:
+    ./next-monorepo/apps/web/app/contato/contact-form.tsx
+    ./next-monorepo/apps/web/app/contato/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.412] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.414] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/downloads/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import type { Metadata } from "next"
+  2 | import { Download, FileText, ImageIcon, Presentation, FileBarChart, Newspaper, Palette } from "lucide-react"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata: Metadata = {
+  6 |   title: "Downloads | Alex Lacerda",
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.414] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/downloads/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import type { Metadata } from "next"
+  2 | import { Download, FileText, ImageIcon, Presentation, FileBarChart, Newspaper, Palette } from "lucide-react"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata: Metadata = {
+  6 |   title: "Downloads | Alex Lacerda",
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.414] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.416] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/projetos/page.tsx:13:1
+Module not found: Can't resolve '@/components/button'
+  11 |   ChevronRight,
+  12 | } from "lucide-react"
+> 13 | import { Button } from "@/components/button"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | export const metadata: Metadata = {
+  16 |   title: "Projetos | Alex Lacerda",
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.417] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/projetos/page.tsx:13:1
+Module not found: Can't resolve '@/components/button'
+  11 |   ChevronRight,
+  12 | } from "lucide-react"
+> 13 | import { Button } from "@/components/button"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | export const metadata: Metadata = {
+  16 |   title: "Projetos | Alex Lacerda",
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.417] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.421] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.422] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.422] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.425] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.427] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.427] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.429] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.430] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.431] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.433] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.435] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.435] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.438] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.440] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.440] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.442] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.444] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.444] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.445] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.447] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/button'
+  1 | import Image from "next/image"
+  2 | import Link from "next/link"
+> 3 | import { Button } from "@/components/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   GraduationCap,
+  6 |   HeartPulse,
+
+Import map: aliased to relative './components/button' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.447] Server  ERROR   ⨯ ./next-monorepo/apps/web/app/layout.tsx:4:1
+Module not found: Can't resolve '@/lib/utils/globals.css'
+  2 | import { Geist, Geist_Mono } from "next/font/google"
+  3 |
+> 4 | import "@/lib/utils/globals.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider"
+  6 | import { Navbar } from "@/components/navbar"
+  7 | import { Footer } from "@/components/footer"
+
+Import map: aliased to relative './lib/utils/globals.css' inside of [project]/next-monorepo/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:27.450] Server  LOG     ✓ Compiled in 185ms

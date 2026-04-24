@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import { Send, CheckCircle, MessageSquare } from "lucide-react"
-import { Button } from "@workspace/ui/components/button"
-import { cn } from "@workspace/ui/lib/utils"
+import { Button } from "@/components/button"
+import { cn } from "@/lib/utils"
 
 const WA_NUMBER = "5515999990000"
 
