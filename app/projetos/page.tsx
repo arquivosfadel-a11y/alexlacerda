@@ -10,7 +10,7 @@ import {
   Building2,
   ChevronRight,
 } from "lucide-react"
-import { Button } from "@/components/button"
+import { Button } from "@workspace/ui/components/button"
 
 export const metadata: Metadata = {
   title: "Projetos | Alex Lacerda",
