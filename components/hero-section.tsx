@@ -13,6 +13,7 @@ import {
 import { useRef, useState, useEffect } from "react"
 import { Star, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { AnomalousBg } from "@/components/ui/anomalous-bg"
 
 // ─── Cycling text ─────────────────────────────────────────────────────────
 
@@ -257,8 +258,6 @@ export function HeroSection() {
     offset: ["start start", "end start"],
   })
 
-  const photoScale = useTransform(scrollYProgress, [0, 1], [1, 1.08])
-  const photoY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"])
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "10%"])
   const sectionOpacity = useTransform(scrollYProgress, [0, 0.75], [1, 0])
 
@@ -270,29 +269,12 @@ export function HeroSection() {
       id="inicio"
       className="relative min-h-screen flex items-center overflow-hidden bg-brand-navy"
     >
-      {/* Aurora animated background */}
-      <Aurora />
+      {/* Anomalous matter Three.js background */}
+      <AnomalousBg />
 
-      {/* Floating particles */}
-      <Particles />
-
-      {/* Background photo with parallax + mouse parallax */}
-      <motion.div
-        className="absolute inset-0"
-        style={{ y: photoY, scale: photoScale, x: mx, rotateY: 0 }}
-      >
-        <Image
-          src="/a3.jpeg"
-          alt="Alex Lacerda"
-          fill
-          priority
-          className="object-cover object-center opacity-20"
-          sizes="100vw"
-        />
-        {/* Multi-layer gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-navy via-brand-navy/85 to-brand-navy/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-navy via-transparent to-brand-navy/20" />
-      </motion.div>
+      {/* Subtle vignette so text stays legible */}
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-brand-navy/80 via-brand-navy/30 to-brand-navy/10" />
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-brand-navy/70 via-transparent to-brand-navy/30" />
 
       {/* Content */}
       <motion.div
