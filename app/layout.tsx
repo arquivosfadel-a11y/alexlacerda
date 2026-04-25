@@ -11,11 +11,11 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 const fontMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" })
 
 export const metadata: Metadata = {
-  title: "Alex Lacerda | Prefeito de Itaberá",
+  title: "Alex Lacerda - Pré-candidato a Deputado",
   description:
-    "Professor, gestor público e prefeito eleito de Itaberá/SP com 73,94% dos votos. Uma trajetória construída no serviço público, na educação e na vida real da população.",
+    "Professor, gestor público, prefeito de Itaberá/SP e pré-candidato a Deputado. Uma trajetória construída no serviço público, na educação e na vida real da população.",
   openGraph: {
-    title: "Alex Lacerda | Prefeito de Itaberá",
+    title: "Alex Lacerda - Pré-candidato a Deputado",
     description:
       "Experiência pública, compromisso com Itaberá e olhar para o desenvolvimento regional.",
     locale: "pt_BR",

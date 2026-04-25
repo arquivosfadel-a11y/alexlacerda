@@ -2,11 +2,11 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { motion, useScroll, useTransform } from "motion/react"
-import { useRef } from "react"
+import { motion } from "motion/react"
 import { Button } from "@/components/ui/button"
 import { AnimateIn, StaggerContainer, StaggerItem } from "@/components/animate-in"
 import { AnimatedCounter } from "@/components/animated-counter"
+import { HeroSection } from "@/components/hero-section"
 import {
   GraduationCap,
   HeartPulse,
@@ -20,150 +20,6 @@ import {
   ChevronRight,
   Star,
 } from "lucide-react"
-
-// ─── Hero ──────────────────────────────────────────────────────────────────
-
-function Hero() {
-  const sectionRef = useRef<HTMLElement>(null)
-  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] })
-  const photoY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"])
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"])
-  const opacity = useTransform(scrollYProgress, [0, 0.7], [1, 0])
-
-  const container = {
-    hidden: {},
-    visible: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
-  }
-  const item = {
-    hidden: { opacity: 0, y: 32 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } },
-  }
-
-  return (
-    <section
-      ref={sectionRef}
-      id="inicio"
-      className="relative min-h-screen flex items-center overflow-hidden bg-brand-navy"
-    >
-      {/* Animated gradient orbs */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="animate-orb-1 absolute -top-32 -left-32 w-[600px] h-[600px] rounded-full bg-brand-blue/20 blur-[120px]" />
-        <div className="animate-orb-2 absolute -bottom-40 -right-20 w-[700px] h-[700px] rounded-full bg-primary/15 blur-[140px]" />
-        <div className="animate-orb-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-brand-gold/8 blur-[100px]" />
-        {/* Grid overlay */}
-        <div
-          className="absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
-      </div>
-
-      {/* Background photo with parallax */}
-      <motion.div className="absolute inset-0" style={{ y: photoY }}>
-        <Image
-          src="/a3.jpeg"
-          alt="Alex Lacerda"
-          fill
-          priority
-          className="object-cover object-center opacity-25"
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-navy via-brand-navy/88 to-brand-navy/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-transparent to-transparent" />
-      </motion.div>
-
-      {/* Content */}
-      <motion.div
-        className="relative max-w-6xl mx-auto px-4 sm:px-6 w-full pt-24 pb-16 sm:pt-32 sm:pb-24"
-        style={{ y: textY, opacity }}
-      >
-        <motion.div
-          className="max-w-2xl"
-          variants={container}
-          initial="hidden"
-          animate="visible"
-        >
-          {/* Badge */}
-          <motion.div variants={item}>
-            <div className="inline-flex items-center gap-2 bg-brand-gold/20 border border-brand-gold/30 text-brand-gold rounded-full px-4 py-1.5 text-xs sm:text-sm font-medium mb-6 sm:mb-8">
-              <Star size={13} className="fill-brand-gold animate-pulse" />
-              Prefeito eleito com 73,94% dos votos
-              {/* shimmer */}
-              <span className="absolute inset-0 rounded-full overflow-hidden pointer-events-none">
-                <span className="absolute top-0 left-0 h-full w-1/3 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
-              </span>
-            </div>
-          </motion.div>
-
-          <motion.h1
-            variants={item}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 sm:mb-6"
-          >
-            De Itaberá para representar a nossa região com{" "}
-            <span className="text-brand-gold relative">
-              experiência
-              <motion.span
-                className="absolute -bottom-1 left-0 h-[3px] w-full bg-brand-gold/60 rounded-full"
-                initial={{ scaleX: 0, originX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{ delay: 0.9, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-              />
-            </span>
-            , seriedade e compromisso.
-          </motion.h1>
-
-          <motion.p
-            variants={item}
-            className="text-base sm:text-lg text-white/70 leading-relaxed mb-8 sm:mb-10 max-w-xl"
-          >
-            Alex Lacerda construiu sua trajetória na educação, na gestão pública e na política
-            municipal. Professor de formação, servidor público e liderança de Itaberá.
-          </motion.p>
-
-          <motion.div variants={item} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-              <Button
-                asChild
-                size="lg"
-                className="bg-brand-gold text-white hover:bg-brand-gold/90 border-none text-sm sm:text-base h-12 px-6 shadow-lg shadow-brand-gold/30"
-              >
-                <Link href="/#quem-e-alex">Conheça a trajetória</Link>
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="bg-transparent border-white/30 text-white hover:bg-white/10 hover:border-white/50 hover:text-white text-sm sm:text-base h-12 px-6"
-              >
-                <Link href="/projetos">Ver projetos</Link>
-              </Button>
-            </motion.div>
-          </motion.div>
-        </motion.div>
-      </motion.div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 text-xs"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.6, duration: 0.6 }}
-      >
-        <motion.div
-          className="w-px h-10 bg-gradient-to-b from-transparent to-white/40"
-          animate={{ scaleY: [1, 0.4, 1] }}
-          transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
-        />
-        <span>Scroll</span>
-      </motion.div>
-    </section>
-  )
-}
 
 // ─── Quem é Alex ───────────────────────────────────────────────────────────
 
@@ -565,7 +421,7 @@ function CtaStrip() {
 export default function Page() {
   return (
     <>
-      <Hero />
+      <HeroSection />
       <QuemEAlex />
       <Trajetoria />
       <Urnas />
